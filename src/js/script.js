@@ -12,7 +12,7 @@ async function configurarCamera(){
         //solicita a permissão para acesar a camera do usuario
         const midia= await navigator.mediaDevices.getUserMedia({
             //habilita a camera traseira do celular
-            video:{ facingMode:"enviroment"}, 
+            video:{ facingMode:"environment"}, 
             audio:false
         });
         //atribui o fluxo da camera ao elemento de 
